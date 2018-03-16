@@ -6,7 +6,9 @@ The tilesever for the energy explorer project is running on Tilehut.js. For deta
 
 See [README-DigitalOcean-Setup.md](README-DigitalOcean-Setup.md)
 
+## Data:
 
+You will need to grab the data for the project from an external link. Please see [data/README.md](data/README.md) for details.
 
 ***
 
