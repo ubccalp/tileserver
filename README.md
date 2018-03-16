@@ -1,4 +1,14 @@
-![tile hut cover](assets/tilehutjs_title.png)
+# Energy Explorer Tileserver 
+
+The tilesever for the energy explorer project is running on Tilehut.js. For details on Tilehut.js please refer to the documentation below. To setup your tileserver on DigitalOcean please see the [README-DigitalOcean-Setup.md](README-DigitalOcean-Setup.md).
+
+## Setup:
+
+See [README-DigitalOcean-Setup.md](README-DigitalOcean-Setup.md)
+
+
+
+***
 
 Tilehut.js
 ==========
