@@ -10,6 +10,7 @@ module.exports = {
       name      : 'tileserver-calp',
       script    : 'server.js',
       env: {
+        PORT:'8000',
         COMMON_VARIABLE: 'true',
         IPADDRESS:''
       },

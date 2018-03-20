@@ -13,12 +13,15 @@
   "scripts": {
     "start": "PORT=80 node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "watch 'node server.js' ."
+    "watch": "watch 'node server.js' .",
+    "pm2local": "pm2 start ecosystem.config.js --env --watch",
+    "pm2remote": "pm2 start ecosystem.config.js --env_production --watch"
   },
   "dependencies": {
     "body-parser": "^1.16.0",
     "express": "^4.14.1",
-    "mbtiles": "^0.9.0"
+    "mbtiles": "^0.9.0",
+    "pm2": "^2.10.1"
   },
   "main": "server.js",
   "repository": {
