@@ -10,6 +10,34 @@ See [README-DigitalOcean-Setup.md](README-DigitalOcean-Setup.md)
 
 You will need to grab the data for the project from an external link. Please see [data/README.md](data/README.md) for details.
 
+## Running locally:
+
+the default port is set to `80` which is used for production, so when testing locally run with the PORT specified like so:
+
+```
+PORT=8000 node server.js
+```
+
+OR 
+
+use pm2 locally
+
+```
+npm run-script pm2local
+```
+
+should be running at: localhost:8000
+
+## Running on server:
+
+You will be using PM2 to run the project on the server. See [README-DigitalOcean-Setup.md](README-DigitalOcean-Setup.md) for details.
+
+basically:
+
+```
+npm run-script pm2remote
+```
+
 ***
 
 Tilehut.js
