@@ -59,6 +59,14 @@ where:
 
 NOTE: all of the data you want to transfer should be in the `/data` folder at this point
 
+### transfering other data to the data folder:
+
+If you need to transfer more data to your tiles data folder, it should be something like:
+```
+scp -i ~/.ssh/id_rsa_calp -r <local/path/to/your/file.mbtiles> root@###.###.##.###:~/tileserver/data/
+```
+
+
 ### SSH into your server and run the thing
 
 In order to run our project we will be using `pm2` to keep our project running. So to do this let's do the following:
